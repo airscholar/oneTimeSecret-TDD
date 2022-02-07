@@ -1,5 +1,5 @@
-import { SecretTooShortError } from '../src/Errors/SecretTooShortError';
-import { Secret } from '../src/Secret';
+import { SecretTooShortError } from '../../src/errors/SecretTooShortError';
+import { Secret } from '../../src/models/Secret';
 
 describe('Secret Test', () => {
   it('should create an instance of secret class', () => {
